@@ -1,6 +1,7 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	AppConfig
 Summary:	AppConfig Perl module
@@ -21,12 +22,12 @@ Summary(sv):	AppConfig Perlmodul
 Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl AppConfig
 Summary(zh_CN):	AppConfig Perl Ä£¿é
 Name:		perl-AppConfig
-Version:	1.55
+Version:	1.56
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
-# Source0-md5:	20d81571e7ef7da092613b4dd69fed33
+# Source0-md5:	16a69f81aaf2b86ee30b25541f58cac0
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-App-Config
@@ -49,7 +50,7 @@ obs³ugi argumentów z linii poleceñ.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
