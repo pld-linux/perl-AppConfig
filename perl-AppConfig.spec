@@ -26,6 +26,7 @@ Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
+# Source0-md5:	176d2709016aee8cf651b2aebafac90b
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-App-Config
