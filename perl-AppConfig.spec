@@ -13,7 +13,7 @@ Summary(fr):	Module Perl AppConfig
 Summary(it):	Modulo di Perl AppConfig
 Summary(ja):	AppConfig Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	AppConfig ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul AppConfig
+Summary(nb):	Perlmodul AppConfig
 Summary(pl):	Modu³ Perla AppConfig
 Summary(pt):	Módulo de Perl AppConfig
 Summary(pt_BR):	Módulo Perl AppConfig
