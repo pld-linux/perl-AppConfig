@@ -22,12 +22,12 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl AppConfig
 Summary(zh_CN):	AppConfig Perl Ä£¿é
 Name:		perl-AppConfig
 Version:	1.52
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-App-Config
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -44,7 +44,8 @@ obs³ugi argumentów z linii poleceñ.
 %setup -q -n %{pdir}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -60,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/AppConfig
-%{perl_sitelib}/*.pm
+%{perl_vendorlib}/AppConfig
+%{perl_vendorlib}/*.pm
 %{_mandir}/man3/*
