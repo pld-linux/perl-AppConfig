@@ -8,7 +8,7 @@ Summary:	AppConfig - Perl5 module for reading configuration files and parsing co
 Summary(pl):	AppConfig - modu³ Perla 5 do czytania plików konfiguracyjnych i analizy linii polecenia
 Name:		perl-AppConfig
 Version:	1.56
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
