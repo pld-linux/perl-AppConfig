@@ -25,7 +25,7 @@ Version:	1.52
 Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 Obsoletes:	perl-App-Config
