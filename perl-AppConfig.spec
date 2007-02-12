@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	AppConfig
 Summary:	AppConfig - Perl5 module for reading configuration files and parsing command line arguments
-Summary(pl):	AppConfig - modu³ Perla 5 do czytania plików konfiguracyjnych i analizy linii polecenia
+Summary(pl.UTF-8):   AppConfig - moduÅ‚ Perla 5 do czytania plikÃ³w konfiguracyjnych i analizy linii polecenia
 Name:		perl-AppConfig
 Version:	1.56
 Release:	2
@@ -26,11 +26,11 @@ information. It maintains the state of any number of variables and
 provides methods for parsing configuration files, command line
 arguments and CGI script parameters.
 
-%description -l pl
-AppConfig jest modu³em Perla 5 s³u¿±cym do czytania informacji
+%description -l pl.UTF-8
+AppConfig jest moduÅ‚em Perla 5 sÅ‚uÅ¼Ä…cym do czytania informacji
 konfiguracyjnych aplikacji. Zachowuje on stan dowolnej liczby
-zmiennych i udostêpnia metody do analizy plików konfiguracyjnych,
-argumrntów linii polecenia i parametrów skryptów CGI.
+zmiennych i udostÄ™pnia metody do analizy plikÃ³w konfiguracyjnych,
+argumrntÃ³w linii polecenia i parametrÃ³w skryptÃ³w CGI.
 
 %prep
 %setup -q -n %{pdir}-%{version}
