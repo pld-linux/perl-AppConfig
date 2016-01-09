@@ -7,13 +7,13 @@
 Summary:	AppConfig - Perl5 module for reading configuration files and parsing command line arguments
 Summary(pl.UTF-8):	AppConfig - moduł Perla 5 do czytania plików konfiguracyjnych i analizy linii polecenia
 Name:		perl-AppConfig
-Version:	1.66
+Version:	1.71
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/AppConfig/%{pdir}-%{version}.tar.gz
-# Source0-md5:	21aa4d1bf70a49a94c2dc9293389b3a0
+# Source0-md5:	7747d9241561ed5567d5e134b8648707
 URL:		http://search.cpan.org/dist/AppConfig/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
