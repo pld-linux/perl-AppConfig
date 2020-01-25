@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	AppConfig
 Summary:	AppConfig - Perl5 module for reading configuration files and parsing command line arguments
 Summary(pl.UTF-8):	AppConfig - moduł Perla 5 do czytania plików konfiguracyjnych i analizy linii polecenia
